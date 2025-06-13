@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "diva" ;
+    src: url(fontes/Super\ Adorable.ttf);
+}
+@font-face {
+    font-family:"cute" ;
+    src: url(fontes/Valentine\ Cute.ttf);
+}
+
+@font-face {
+    font-family:"magnetic" ;
+    src: url(fontes/Magnetic\ Free.ttf);
+}
+
+body {
+ background-color: pink;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding: 16px;
+ font-family: "diva";
+ font-size: 24px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.CENTER {
+  text-align: center;
+}
+h1 {
+  color white:;
+  font-family: "cute";
+  font-size: 24px;
+}
+
+h2{
+    font-family: "cute";
+    font-size: 24px;
+}
+
+h3{
+    font-family: "cute";
+    font-size: 24px;
+}
+
+p{
+  font-family: "magnetic";
+font-size: 30px;  
+}
+
+.container{
+    padding: 0px 50px
+}
+nav a:hover{
+    color:blue;
+}
+
+.player {
+  text-align: center;
+}
+
+.player img {
+  border-radius: 10px;
+}
+
+.player button {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+   }
+   p{
+
+   }

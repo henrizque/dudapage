@@ -1,0 +1,58 @@
+ background: #ffe6f0;
+        font-family: "Dancing Script", cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      @font-face {
+        font-family:"magnetic" ;
+        src: url(fontes/Magnetic\ Free.ttf);
+      }
+      .carta {
+        background: #fff;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #ff3366;
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.8;
+        color: #333;
+      }
+
+      .assinatura {
+        margin-top: 30px;
+        font-size: 22px;
+        color: #ff6699;
+      }
+
+      .coração {
+        font-size: 40px;
+        color: #ff3366;
+        animation: pulse 1.5s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+          p{
+           font-family: "magnetic";
+          }

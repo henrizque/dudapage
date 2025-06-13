@@ -1,0 +1,45 @@
+body {
+  background: #fff0f5;
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+  margin: 0;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.moldura {
+  background: #fff;
+  border: 8px solid #ffb6c1;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.moldura:hover {
+  transform: scale(1.05);
+}
+
+.moldura img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  height: 250px;
+}
+
+.moldura p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #d6336c;
+}
